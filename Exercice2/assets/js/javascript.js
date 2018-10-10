@@ -4,5 +4,5 @@ document.getElementById("lastname").addEventListener("blur", focusEvent);
 //Fonction focusEvent
 function focusEvent() {
   //Affichage de la boite de dialogue
-  alert('Merci de votre participation');
+  alert("Merci de votre participation");
 }
