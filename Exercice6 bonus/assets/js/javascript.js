@@ -4,16 +4,15 @@ var imageNum = [document.getElementById("image1"), document.getElementById("imag
 //Création d'une boucle
 for (var i = 0; i < imageNum.length; i++) {
   imageNum[i].addEventListener("mouseover", mouseOver);
+  imageNum[i].addEventListener("mouseout", mouseOut);
 
   //fonction mouseOver
   function mouseOver() {
-    this.src = "images/" + [this.id] + "_2.jpg";
+    this.src = "images/" + this.id + "_2.jpg";
   }
-
-  imageNum[i].addEventListener("mouseout", mouseOut);
 
   //Fonction mouseOut
   function mouseOut() {
-    this.src = "images/" + [this.id] + ".jpg";
+    this.src = "images/" + this.id + ".jpg";
   }
 }

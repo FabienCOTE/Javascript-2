@@ -7,6 +7,6 @@ for (var i = 0; i < imageNum.length; i++) {
 
   //Fonction mouseOver
   function mouseOver() {
-    this.src = "images/" + [this.id] + "_2.jpg";
+    this.src = "images/" + this.id + "_2.jpg";
   }
 }
