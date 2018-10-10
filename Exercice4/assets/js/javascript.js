@@ -6,7 +6,7 @@ var x = document.querySelector("[name='button']");
 x.addEventListener('click', raz);
 
 //Fonction raz
-function raz(event) {
+function raz() {
   //On donne une valeur vide pour éffacer le champs
   document.getElementById('lastname').value = "";
   document.getElementById('firstname').value = "";

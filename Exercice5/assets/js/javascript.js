@@ -5,7 +5,6 @@ document.getElementById("image3").addEventListener("mouseover", mouseOver3);
 document.getElementById("image4").addEventListener("mouseover", mouseOver4);
 document.getElementById("image5").addEventListener("mouseover", mouseOver5);
 
-
 //Fonction mouseOver1
 function mouseOver1() {
   //On change l'image au passage de la souris

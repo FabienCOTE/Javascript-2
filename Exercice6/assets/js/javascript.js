@@ -10,7 +10,6 @@ document.getElementById("image4").addEventListener("mouseout", mouseOut4);
 document.getElementById("image5").addEventListener("mouseover", mouseOver5);
 document.getElementById("image5").addEventListener("mouseout", mouseOut5);
 
-
 //Fonction mouseOver1
 function mouseOver1() {
   //On change l'image au passage de la souris
