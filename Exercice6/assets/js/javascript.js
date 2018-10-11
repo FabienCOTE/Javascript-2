@@ -1,71 +1,78 @@
+//Création de 5 variables
+var a = document.getElementById("image1");
+var b = document.getElementById("image2");
+var c = document.getElementById("image3");
+var d = document.getElementById("image4");
+var e = document.getElementById("image5");
+
 //On recherche ID des images dans le fichier HTML pour appliquer la fonction mouseOver et mouseOut
-document.getElementById("image1").addEventListener("mouseover", mouseOver1);
-document.getElementById("image1").addEventListener("mouseout", mouseOut1);
-document.getElementById("image2").addEventListener("mouseover", mouseOver2);
-document.getElementById("image2").addEventListener("mouseout", mouseOut2);
-document.getElementById("image3").addEventListener("mouseover", mouseOver3);
-document.getElementById("image3").addEventListener("mouseout", mouseOut3);
-document.getElementById("image4").addEventListener("mouseover", mouseOver4);
-document.getElementById("image4").addEventListener("mouseout", mouseOut4);
-document.getElementById("image5").addEventListener("mouseover", mouseOver5);
-document.getElementById("image5").addEventListener("mouseout", mouseOut5);
+a.addEventListener("mouseover", mouseOver1);
+a.addEventListener("mouseout", mouseOut1);
+b.addEventListener("mouseover", mouseOver2);
+b.addEventListener("mouseout", mouseOut2);
+c.addEventListener("mouseover", mouseOver3);
+c.addEventListener("mouseout", mouseOut3);
+d.addEventListener("mouseover", mouseOver4);
+d.addEventListener("mouseout", mouseOut4);
+e.addEventListener("mouseover", mouseOver5);
+e.addEventListener("mouseout", mouseOut5);
 
 //Fonction mouseOver1
 function mouseOver1() {
   //On change l'image au passage de la souris
-  document.getElementById("image1").src="images/image1_2.jpg";
+  a.src="images/image1_2.jpg";
 }
 
 //Fonction mouseOut1
 function mouseOut1() {
   //On remet l'image
-  document.getElementById("image1").src="images/image1.jpg";
+  a.src="images/image1.jpg";
 }
 
 //Fonction mouseOver2
 function mouseOver2() {
   //On change l'image au passage de la souris
-  document.getElementById("image2").src="images/image2_2.jpg";
+  b.src="images/image2_2.jpg";
 }
 
 //Fonction mouseOut2
 function mouseOut2() {
   //On remet l'image
-  document.getElementById("image2").src="images/image2.jpg";
+  b.src="images/image2.jpg";
 }
 
 //Fonction mouseOver3
 function mouseOver3() {
   //On change l'image au passage de la souris
-  document.getElementById("image3").src="images/image3_2.jpg";
+  c.src="images/image3_2.jpg";
 }
 
 //Fonction mouseOut3
 function mouseOut3() {
   //On remet l'image
-  document.getElementById("image3").src="images/image3.jpg";
+  c.src="images/image3.jpg";
 }
 
 //Fonction mouseOver4
 function mouseOver4() {
   //On change l'image au passage de la souris
-  document.getElementById("image4").src="images/image4_2.jpg";
+  d.src="images/image4_2.jpg";
 }
 
 //Fonction mouseOut4
 function mouseOut4() {
   //On remet l'image
-  document.getElementById("image4").src="images/image4.jpg";
+  d.src="images/image4.jpg";
 }
 
 //Fonction mouseOver5
 function mouseOver5() {
   //On change l'image au passage de la souris
-  document.getElementById("image5").src="images/image5_2.jpg";
+  e.src="images/image5_2.jpg";
 }
 
 //Fonction mouseOut5
 function mouseOut5() {
   //On remet l'image
-  document.getElementById("image5").src="images/image5.jpg";
+  e.src="images/image5.jpg";
 }
